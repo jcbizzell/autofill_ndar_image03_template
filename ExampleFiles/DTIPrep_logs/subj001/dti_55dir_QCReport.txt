@@ -1,0 +1,136 @@
+================================= 
+* DWI QC Report ( DTIPrep 1.5 ) * 
+================================= 
+DWI File: /home/aks64/.gvfs/belger on munin.dhe.duke.edu/ADOLSTRESS.01/Analysis/DTI/nrrd_data/cnt_101_bl/dti_55dir.nrrd
+xml File: /home/aks64/.gvfs/belger on munin.dhe.duke.edu/ADOLSTRESS.01/Analysis/DTI/adolstress_dtiprep_protocol.xml
+Check Time: Wed May 24 15:39:05 2017
+
+
+Image_information_checkingImage_size_check OK
+Image_information_checkingImage_origin_check FAILED
+Image_information_checkingImage_spacing_check OK
+Image_information_checkingImage_space_check OK
+
+================================
+ Diffusion Information checking 
+================================
+
+DWMRI_bValue Check: 		OK
+Diffusion gradient Check: 	OK
+
+================================
+       Slice-wise checking      
+================================
+Parameters:
+  CheckTimes: 0
+  HeadSkipRatio: 0.1
+  TailSkipRatio: 0.1
+  BaselineStdevTimes: 3
+  GradientStdevTimes: 3.5
+
+======
+Slice-wise Check Artifacts:
+Region	 Gradient#	    Slice#	Correlation
+whole	        2	       15	 0.911113
+whole	        3	       43	 0.890379
+whole	        3	       45	 0.861929
+whole	        3	       47	 0.836044
+whole	       29	       15	 0.908546
+whole	       29	       21	 0.925188
+
+================================
+     Interlace-wise checking    
+================================
+Parameters:
+  CorrelationThresholdBaseline: 0.827
+  CorrelationThresholdGradient: 0.8673
+  CorrelationStedvTimesBaseline: 2.5
+  CorrelationStdevTimesGradient: 3
+  TranslationThreshold: 1.2917
+  RotationThreshold: 0.5
+
+======
+Interlace-wise Check Artifacts:
+	Gradient#:	   AngleX	   AngleY	   AngleZ	TranslationX	TranslationY	TranslationZ	Metric(MI)	Correlation
+
+================================
+       Baseline averaging       
+================================
+
+Average Method: [DWIBaselineAverager::BaselineOptimized]--Averaging Optimized based on baseline images
+Stop threshold: 0.02
+
+======
+Output Diffusion Gradient direction information:
+
+	# 	DirVector
+	0	[  0.000000,  0.000000,  0.000000 ]
+	1	[  1.000000,  0.000000,  0.000000 ]
+	2	[  0.907000, -0.390000,  0.161000 ]
+	3	[ -0.111000, -0.797000,  0.594000 ]
+	4	[ -0.789000, -0.336000,  0.514000 ]
+	5	[  0.676000,  0.266000,  0.687000 ]
+	6	[ -0.257000,  0.963000,  0.081000 ]
+	7	[  0.829000, -0.002000,  0.559000 ]
+	8	[ -0.062000, -0.998000, -0.019000 ]
+	9	[  0.089000, -0.929000, -0.359000 ]
+	10	[  0.414000, -0.802000, -0.431000 ]
+	11	[ -0.351000, -0.587000,  0.730000 ]
+	12	[ -0.678000,  0.680000,  0.278000 ]
+	13	[ -0.518000,  0.003000, -0.855000 ]
+	14	[ -0.776000, -0.615000, -0.142000 ]
+	15	[  0.698000, -0.204000, -0.687000 ]
+	16	[  0.420000, -0.328000, -0.847000 ]
+	17	[ -0.226000, -0.901000, -0.370000 ]
+	18	[ -0.692000,  0.698000, -0.187000 ]
+	19	[  0.508000,  0.800000,  0.320000 ]
+	20	[ -0.643000,  0.234000, -0.729000 ]
+	21	[  0.954000, -0.107000,  0.279000 ]
+	22	[  0.162000,  0.413000,  0.896000 ]
+	23	[ -0.111000,  0.132000, -0.985000 ]
+	24	[  0.251000, -0.924000,  0.287000 ]
+	25	[  0.887000, -0.440000, -0.138000 ]
+	26	[ -0.096000,  0.199000,  0.975000 ]
+	27	[  0.943000,  0.328000,  0.053000 ]
+	28	[ -0.286000,  0.385000, -0.878000 ]
+	29	[ -0.381000,  0.001000,  0.925000 ]
+	30	[ -0.269000, -0.122000, -0.955000 ]
+	31	[ -0.503000, -0.296000,  0.812000 ]
+	32	[ -0.944000, -0.170000,  0.283000 ]
+	33	[ -0.921000,  0.145000,  0.362000 ]
+	34	[  0.493000, -0.749000,  0.443000 ]
+	35	[ -0.537000,  0.843000,  0.030000 ]
+	36	[  0.879000,  0.286000,  0.382000 ]
+	37	[ -0.725000, -0.091000,  0.683000 ]
+	38	[  0.822000,  0.520000, -0.233000 ]
+	39	[  0.221000, -0.734000,  0.642000 ]
+	40	[ -0.497000,  0.574000,  0.651000 ]
+	41	[ -0.121000,  0.757000,  0.643000 ]
+	42	[  0.792000, -0.407000,  0.455000 ]
+	43	[ -0.174000, -0.281000,  0.944000 ]
+	44	[ -0.417000, -0.831000,  0.368000 ]
+	45	[  0.768000, -0.434000, -0.472000 ]
+	46	[  0.541000, -0.510000,  0.669000 ]
+	47	[  0.021000,  0.555000, -0.832000 ]
+	48	[ -0.643000, -0.757000,  0.117000 ]
+	49	[  0.603000,  0.609000, -0.515000 ]
+	50	[  0.673000,  0.571000,  0.469000 ]
+	51	[ -0.238000, -0.714000, -0.659000 ]
+	52	[  0.452000,  0.486000,  0.748000 ]
+
+================================
+    Gradient-wise checking      
+================================
+
+Parameters:
+  TranslationThreshold: 1.2917
+  RotationThreshold: 0.5
+
+Inter-gradient check Artifacts::
+	Gradient#:	   AngleX	   AngleY	   AngleZ	TranslationX	TranslationY	TranslationZ	Metric(MI)
+================================
+  QC result summary:
+================================
+Gradient direction # is not less than 6!
+Left Baseline images and the left b-value are ok!
+Bad gradient directions # passed in the tolerance! 

@@ -1,0 +1,12 @@
+FILENAME,NUMVOLS,NUMBADVOLS,DUMMY
+bia5_20621_007_02.nii.gz,106,5,1
+bia5_20621_007_01.nii.gz,106,8,1
+bia5_20621_009_03.nii.gz,106,18,1
+bia5_20621_009_02.nii.gz,106,13,1
+bia5_20621_009_01.nii.gz,106,13,1
+bia5_20621_007_03.nii.gz,106,2,1
+bia5_20621_007_06.nii.gz,180,19,1
+bia5_20621_007_04.nii.gz,180,17,1
+bia5_20621_007_05.nii.gz,180,19,1
+rsfmri_01_sense.nii.gz,123,15,1
+rsfmri_02_sense.nii.gz,123,9,1
